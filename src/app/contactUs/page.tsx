@@ -3,15 +3,15 @@ export default function ContactUs(){
       <div>
        
         {/* ContactUs page */}
-        <div style={{background:"white",height:"500px", width:"600px",marginLeft:"300px",borderStyle:"solid",borderRadius:"20px", display:"grid", justifyContent:"center",borderWidth:"30px",borderColor:"#a3ffbc"}}>
+        <div className="bg-[white] h-[500px] w-[600px] ml-[300px] border-solid rounded-[20px] grid justify-center border-[30px] border-color[#a3ffbc]">
             
         <div>
-            <div style={{paddingLeft:"5%"}}>
-            <h1 style={{paddingLeft:"27%",fontSize:"30px"}}><strong>Connect with NYS</strong></h1>
+            <div className="pl-[5%]">
+            <h1 className="pl-[27%] text-[30px]"><strong>Connect with NYS</strong></h1>
             Bringing you closer to a smarter, more interactive learning experience. Let’s stay in touch and build a future of limitless knowledge!
             </div>
         </div>
-        <div style={{padding:"5%"}}>
+        <div className="p-[5%]">
             <p>
             <strong>Innovative Learning</strong>  – AI quizzes that make education enjoyable and 
                 accessible.
@@ -25,7 +25,7 @@ export default function ContactUs(){
 <br></br><strong>Address</strong>: Saddar, Karachi Sindh, Pakistan
             </p>
         </div>
-        <div style={{paddingLeft:"20%"}}>
+        <div className="pl-[20%]">
         © 2024 nysquiz. All Rights Reserved.
         </div>
        
